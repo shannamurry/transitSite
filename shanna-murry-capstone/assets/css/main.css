@@ -1,0 +1,261 @@
+/**************************
+    Border Box Fix
+***************************/
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/**************************
+    Global Styles
+***************************/
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.hero {
+    background: linear-gradient(to bottom right, #17a2b8, #aaa);
+    color: #343a40;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.subhead {
+    font-style: italic;
+    color: #aaa;
+
+}
+
+.aboutImg {
+    box-shadow: 8px 8px 8px #343a40;
+}
+
+/**************************
+    Banner
+***************************/
+/* image */
+#headerLogo {
+    float: left;
+    position: relative;
+    top: 5px;
+}
+
+#navbarBrand {
+    display: inline-block;
+    width: 21em;
+}
+
+/* banner h1 */
+#navHeader {
+    color: #aaa;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+}
+
+/* top banner */
+#headerTopNav {
+    background: #f8f9fa;
+}
+
+/* dark bottom banner links */
+#headerBottomNav a {
+    color: #007bff;
+    font-variant: small-caps;
+    margin-right: 10px;
+}
+
+#headerBottomNav a:hover {
+    color: #f8f9fa;
+}
+
+/**************************
+    Footer
+***************************/
+/* top footer */
+#toTopNav {
+    background-color: #6c757d;
+}
+
+/* footer to top nav link */
+#toTopNav a {
+    color: #f8f9fa;
+}
+
+/* footer list headings */
+#footerNav h3 {
+    color: #f8f9fa;
+    font-size: 1em;
+}
+
+/* main footer links */
+#footerNav a {
+    color: #f8f9fa;
+    font-size: 0.8em;
+}
+
+/* bottom logo banner */
+#footerNavLogo {
+    padding: 1em;
+}
+
+/* anytown metro text */
+.footerHeader {
+    color: #000;
+    display: inline-block;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+}
+
+/* anytown metro background image */
+#footerLogo {
+    display: inline-block;
+    background: url('../img/logo2.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 20px;
+    width: 40px;
+}
+
+.fab {
+    font-size: 1.5em;
+}
+
+.socialMedia a {
+    width: 115px;
+}
+
+/**************************
+    Index
+***************************/
+.carousel-text {
+    text-shadow: 2.5px 2.5px 5px #343a40;
+}
+
+.carousel-img1 {
+    background-image: linear-gradient(to bottom, #00333800, #2d87c7b5), url('../img/highSpeed.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 32rem;
+}
+
+.carousel-img2 {
+    background-image: linear-gradient(to bottom, #00333800, #8a580ea8), url('../img/indoorPlatform.1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 32rem;
+}
+
+.carousel-img3 {
+    background-image: linear-gradient(to bottom, #00333800, #2d87c7b5), url('../img/trainCar.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 32rem;
+}
+
+.carousel-img4 {
+    background-image: url('../img/tracks.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 32rem;
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 2rem;
+}
+
+ /* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+  
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/**************************
+    Destination
+***************************/
+.getRouteBtn,
+.resetBtn {
+    width: 100%;
+}
+
+.statusLink {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#hours,
+#minutes,
+#ampm {
+    width: 4.5em;
+}
+
+.routes {
+    display: none;
+}
+
+.routes span {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.connectionRoutes {
+    display: none;
+}
+
+.connectionRoutes span {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/**************************
+    Map
+***************************/
+.mapBody {
+    background-color: #f8f9fa;
+}
+
+/**************************
+    Schedules
+***************************/
+#marketTimes, #broadTimes {
+    font-size: 0.9em;
+}
+
+/**************************
+    Alerts
+***************************/
+.alertSection h3 {
+    font-size: 1.2em;
+}
